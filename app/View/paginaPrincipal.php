@@ -20,11 +20,7 @@
                     <img class="imgupf" src="public/imagens/logoUPF_branco.png" alt="logoDaPagina">
                 </div>
                 <div>
-<<<<<<< HEAD
                     <a href="index.php" onclick="<?php session_destroy()?>">
-=======
-                    <a href="index.php">
->>>>>>> 81c2dae0d8c1fc1f7e56d256b5916bd8acab6c2e
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" color="white" font-size="28px" class="bi bi-power" viewBox="0 0 16 16">
                             <path d="M7.5 1v7h1V1h-1z" />
                             <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" />
@@ -46,31 +42,31 @@
                     <li><a href="https://www.w3schools.com/php/default.asp" target="_blank">PHP</a></li>
                 </ul>
             </nav>
- 
+
         <div>
             <h3 class="titulo">Treinamento</h3>
         </div>
 
         <div>
-           
+
                   <div id="box-1" class="box">
                         <img class="img-portal" src="public/imagens/user.png" alt="">
                             <div id="box-11" class="box2"><a class="link" href="index.php"><b>Portal <br> Gestão de Pessoas</b>
                         </a></div>
                     </div>
-               
+
                     <div id="box-2" class="box">
                         <img class="img-GAD" src="public/imagens/GuiaAtendimento.png" alt="">
                         <div id="box-22" class="box2"><a class="link" href="index.php"><b>Guia de Atendimento<br>DTI</b>
                         </a></div>
-                        
+
                     </div>
 
-             
-              
+
+
                     <div id="box-3" class="box">
                         <img class="img-lgpd" src="public/imagens/lgpd.png" alt="">
-                        <div id="box-33" class="box2"><a class="link" href="index.php"><b>LGPD</b> 
+                        <div id="box-33" class="box2"><a class="link" href="index.php"><b>LGPD</b>
                     </a></div>
                         </div>
 
@@ -86,13 +82,13 @@
                         </a></div>
                     </div>
 
-                
+
                     <div id="box-6" class="box">
                         <img class="img-MANUAL" src="public/imagens/manualBoasVindas.png" alt="">
                         <div id="box-66" class="box2"><a class="link" href="index.php"><b>Manual de<br>Boas-Vindas</b>
                      </a></div>
                     </div>
-            
+
 </div>
 <div>
         <div class="caixa">
