@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <title>Recuperar Senha</title>
+    <title>Universidade de Passo Fundo</title>
     <?php
         require_once 'app/view/paginaPrincipal.php';
     ?>
