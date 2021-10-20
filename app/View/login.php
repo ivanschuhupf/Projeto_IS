@@ -31,8 +31,8 @@
             </div>
         <div class="todasinfos">
             <form action="app/controller/validaLogin.php" method="POST">
-                <input class="info" name="f_email" type="email" placeholder="E-mail:" volue="exemplo@upf.br" required>
-                <input class="info" name="f_senha" type="password" placeholder="Senha:" volue="123456" minlength="5" required>
+                <input class="info" name="f_email" type="email" placeholder="E-mail:" required>
+                <input class="info" name="f_senha" type="password" placeholder="Senha:" maxlength="6" minlength="5" required>
                 <button class="btentrar" type="submit"><a>Entrar</a></button>
             </form>
             <div class="esqsenha">
