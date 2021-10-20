@@ -25,12 +25,11 @@
         padding: auto;
     }
     .linha_vertical {
-        height: 100%;
+        height: 200px;
         margin-left: 20px;
         display: inline;
         float: left;
         border-right: 1px solid rgb(206, 206, 206);
-
     }
     .logo {
         margin-top: 60px;
@@ -43,54 +42,70 @@
         float: left;
         margin-left: 15px;
     }
+    .titulo1 {
+        font-size: 16px;
+        text-align: center;
+
+        margin-left: 0;
+    }
+    .esqsenha  {
+        margin-top: 40px;
+      }
 }
 
 @media only screen and (min-width: 992px){
     .login {
         margin-top: 120px;
-        margin-left: auto;
-        margin-right:auto;
+        margin-left: 370px;
         text-align: center;
         background-color: white;
         border-radius: 5px;
         box-shadow: 1px 2px rgb(230, 228, 228);
         color: rgb(7, 5, 5);
-        height: 500px;
-        width: 600px;
+        height: 600px;
+        width: 650px;
+        padding: 20px;
         border-color: black;
         border-top: 3px solid transparent;
         border-image: linear-gradient(to right, green, yellow, red);
         border-image-slice: 1;
         margin-bottom: 50px;
-        padding: 20px;
     }
     .rodape{
         background-color:  #676767;
-        padding: 30px;
-        position: fixed;
+        margin: 0;
         width: 100%;
-        margin-bottom: 0;
+        padding: auto;
     }
     .linha_vertical {
-        margin-left: 30px;
-        margin-top: 30px;
+        height: 200px;
+        margin-left: 20px;
         display: inline;
         float: left;
-        height: 270px;
         border-right: 1px solid rgb(206, 206, 206);
     }
     .logo {
         margin-top: 60px;
         user-select: none;
         float: left;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .logoeicon {
-        display: flex;
         flex-direction: column;
         float: left;
         margin-left: 15px;
     }
+    .titulo1 {
+        margin-bottom: 0;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 5px;
+        margin-left: 0;
+    }
+    .esqsenha  {
+        margin-top: 20px;
+      }
+
 }
 
 @media only screen and (min-width: 600px){
@@ -124,14 +139,14 @@
         margin-top: 60px;
         user-select: none;
         float: left;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .linha_vertical {
         margin-left: 30px;
-        margin-top: 30px;
+        margin-top: 10px;
         display: inline;
         float: left;
-        height: 270px;
+        height: 285px;
         border-right: 1px solid rgb(206, 206, 206);
 
     }
@@ -139,7 +154,7 @@
         display: flex;
         flex-direction: column;
         float: left;
-        margin-left: 10px;
+        margin-left: 15px;
     }
 }
 @media only screen and (max-width: 600px){
@@ -190,9 +205,10 @@
         float: left;
         margin-left: 40px;
     }
-    .todasinfos{
-        margin-top: 10px;
-    }
+    .esqsenha  {
+        margin-top: 20px;
+      }
+
 }
 
 * {
@@ -222,7 +238,7 @@ p {
 .btentrar {
     color: rgb(10, 9, 9);
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
     user-select: none;
     cursor: pointer;
@@ -239,8 +255,7 @@ p {
     background-color: rgb(99, 99, 99);
     cursor: pointer;
 }
-
-.esqsenha a {
+a{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -248,15 +263,11 @@ p {
     color: rgb(7, 3, 3);
     user-select: none;
 }
-
 .titulo1 {
-    margin-bottom: 15px;
-    font-size: 16px;
+    margin-top: 25px;
     text-align: center;
 }
-.referencia {
-    padding: 10px;
-}
+
 .icones {
     margin-left: 10px;
     margin-top: 50px;
@@ -278,5 +289,5 @@ p {
     text-decoration: none;
 }
 .todasinfos{
-    margin-top: 20px;
+    margin-top: 35px;
 }

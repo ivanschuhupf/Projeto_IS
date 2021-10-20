@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <title>Universidade de Passo Fundo</title>
     <link rel="shortcut icon" href="public/imagens/iconeUPF.png" type="image/png">
 </head>
+
 <body class="body">
     <div class="login">
         <div class="referencia"></div>
@@ -15,12 +17,14 @@
             <h2>Acabamos de enviar um código para seu e-mail</h2>
         </div>
         <div class="titulo1">Insira o código de verificação</div>
-        <form class="caixa" action="app/controller/validaToken.php" method="POST">
-            <input class="info" name="f_token" type="password" placeholder="Código de 6 digitos" required><br>
+        <form action="app/controller/validaToken.php" method="POST">
+            <div>
+                <input class="info" name="f_token" type="password" placeholder="Código de 6 digitos" required>
+            </div>
+            <button class="bt" type="button">Voltar</button>
+            <button class="bt" type="submit">Enviar</button>
             <div class="esqsenha">
-                <button class="bt" type="button" >Voltar</button>
-                <button class="bt" type="submit" >Enviar</button>
-                <div><a>Reenviar Código</a></div>
+                <a>Reenviar Código</a>
             </div>
         </form>
     </div>

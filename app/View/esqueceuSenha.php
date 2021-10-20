@@ -17,15 +17,17 @@
         </div>
         <div class="linha_vertical"></div>
         <div class="referencia"></div>
-        <div class="todasinfos">
-            <div class="titulo1">
+        <div class="titulo1">
                 <h1> Esqueceu senha?</h1><br>
                 Redefina a sua senha em duas etapas rápidas
             </div>
-            <form class="esqsenha" action="app/controller/geraToken.php" method="POST">
+            <form action="app/controller/geraToken.php" method="POST">
                 <input class="info" name="f_email" type="email" placeholder="exemplo@gmail.com" required>
-                <button class="bt">Voltar</button>
-                <button class="bt" type="submit">Enviar</button>
+                <div>
+                       <button class="bt"><a>Voltar</a></button>
+                <button class="bt" type="submit"><a>Enviar</a></button>
+                </div>
+
             </form>
         </div>
     </div>

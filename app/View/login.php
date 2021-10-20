@@ -26,10 +26,10 @@
         </div>
         <div class="linha_vertical"></div>
         <div class="referencia"></div>
-        <div class="todasinfos">
-            <div class="titulo1">
+        <div class="titulo1">
                 <p>Acesso à Intranet</p>
             </div>
+        <div class="todasinfos">
             <form action="app/controller/validaLogin.php" method="POST">
                 <input class="info" name="f_email" type="email" placeholder="E-mail:" volue="exemplo@upf.br" required>
                 <input class="info" name="f_senha" type="password" placeholder="Senha:" volue="123456" minlength="5" required>
@@ -46,7 +46,7 @@
         </div>
         <div class="font-color-white"> BR 285, São José | Passo Fundo/RS | CEP: 99052-900</div>
         <div class="font-color-white">Canais de atendimento:
-            <a href="tel:+55-54-3316-7000" title="Telefone UPF">(54)3316-7000</a>,<br>
+            <a href="tel:+55-54-3316-7000" title="Telefone UPF">(54)3316-7000</a>,
             <a href="mailto:informacoes@upf.br" title="E-mail para a Central de Informações">informacoes@upf.br</a>
         </div>
     </div>
