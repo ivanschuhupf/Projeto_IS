@@ -21,7 +21,7 @@
             <div>
                 <input class="info" name="f_token" type="password" placeholder="Código de 6 digitos" required>
             </div>
-            <button class="bt" type="button">Voltar</button>
+            <button class="bt" type="button"><a href="esqueceuSenha.php">Voltar</a></button>
             <button class="bt" type="submit">Enviar</button>
             <div class="esqsenha">
                 <a>Reenviar Código</a>

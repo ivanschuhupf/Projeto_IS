@@ -3,14 +3,14 @@ require_once 'conexao.php';
 class Usuario{
     public function login ($email, $senha){ /* valdia usuario */
         global $pdo;
-        $sql = $pdo->prepare("SELECT * FROM usuario WHERE email = :email and senha = :senha");
+        $sql = $pdo->prepare("SELECT id_usuario, email, senha FROM usuario WHERE email = :email and senha = :senha");
         $sql ->bindValue(":email", $email);
         $sql ->bindValue(":senha", $senha);
         $sql-> execute();
 
         if ($sql->rowCount()>0){
             $dado =$sql->fetch();
-            $_SESSION[":id_usuario"] = $dado ["id_usuario"];
+            $_SESSION[":email"] = $dado ["email"];
             return true;
         }else {
             return false;
@@ -75,7 +75,7 @@ class Usuario{
     public function buscaUsuarioID($token){
         global $pdo;
         $dadosUsuario = array();
-        $sql = $pdo ->prepare ("SELECT * FROM usuario WHERE token = :token");
+        $sql = $pdo ->prepare ("SELECT id_usuario, email FROM usuario WHERE token = :token");
         $sql ->bindValue(":token", $token);
         $sql -> execute();
         $dadosUsuario = $sql->fetch(PDO::FETCH_ASSOC);
