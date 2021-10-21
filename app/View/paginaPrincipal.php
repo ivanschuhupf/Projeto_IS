@@ -16,7 +16,7 @@
     <header class="menu">
         <div><img class="imgupf" src="public/imagens/logoUPF_branco.png" alt="logoDaPagina"></div>
         <div>
-            <a href="index.php" onclick="<?php session_destroy() ?>">
+            <a href="index.php" onclick="<?php session_destroy()?>">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" color="white" font-size="28px" class="bi bi-power" viewBox="0 0 16 16">
                     <path d="M7.5 1v7h1V1h-1z" />
                     <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" />
@@ -27,13 +27,13 @@
     <nav>
         <ul>
             <li><a class="active" href="#home">Home</a></li>
-            <li><a href="paginaloginPRINCIPAL.html" target="_blank">Login</a></li>
-            <li><a href="materialdeestudos/cartilha-lgpd.pdf" target="_blank">Treinamento LGPD</a></li>
-            <li><a href="materialdeestudos/DizAiDTI_GUIA DE ATENDIMENTO - v8.pdf" target="_blank">Treinamento DTI</a></li>
+            <li><a href="public/arquivos/materialdeestudos/cartilha-lgpd.pdf" target="_blank">Treinamento LGPD</a></li>
+            <li><a href="public/arquivos/materialdeestudos/DizAiDTI_GUIA DE ATENDIMENTO - v8.pdf" target="_blank">Treinamento DTI</a></li>
             <li><a href="https://www.w3schools.com/default.asp" target="_blank">3WSchools</a></li>
             <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
             <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></li>
             <li><a href="https://www.w3schools.com/php/default.asp" target="_blank">PHP</a></li>
+            <li><a href="criarUsuario.php" target="_blank">Criar novo usuario</a></li>
         </ul>
     </nav>
 
@@ -68,15 +68,14 @@
     </div>
     <div class="caixa">
         <h3>Escopo Projeto</h3>
-        O projeto presente tem como objetivo aplicar o conhecimento adquirido nos treinamentos.
-        O projeto tem como ponto de partida a pagina de estudos, já solicitada anteriormente, onde a mesma será aperfeiçoada com os conhecimentos adquiridos.
+        O projeto presente tem como objetivo aplicar o conhecimento adquirido nos treinamentos.<br>
+        O projeto tem como ponto de partida a pagina de estudos, já solicitada anteriormente, onde a mesma será aperfeiçoada com os conhecimentos adquiridos.<br>
         Começamos desenvolvendo a parte de login, juntamente com recuperação de senha, sempre partindo dos exemplos obtidos da nossa Intranet para termos uma base. A ideia de partir do login é para que possamos em paralelo já irmos aplicando um pouco de banco de dados junto.
-        Mudamos algumas partes para que seja uma página mais amigável com o usuário e para que não seja uma cópia completa do site.
-        Layouts de Páginas, o site conterá responsividade para melhor acesso de dispositivos menores;
-        Banco de Dados: Autenticação de usuários;
-        Java Scripts/JQuery: Usaremos para alertas e animações do site;
-        Bibliotecas: Serão utilizadas bibliotecas prontas para recuperação de senha e manipulação de PDF’s
-        Conforme o andamento do projeto será incrementado mais informações a este escopo de projeto.
+        Mudamos algumas partes para que seja uma página mais amigável com o usuário e para que não seja uma cópia completa do site.<br>
+        As paginas do site deverão ser resposnivas, facilitando o uso em dispositivos móveis.<br>
+        O banco de dados que será usado para realizalção deste projeto será o mysql, onde usaremos o PDO (PHP Data Objects), que é uma extensão que fornece uma interface padronizada para trabalhar com bancos de dados.<br>
+        O projeto contem com sistema de login, onde conseguiremos recuperar a senha via token de confirmação enviado por e-mail, que é onde entra a biblioteca a ser usada (PHPMailer), que está disponivel na internet.<br>
+
     </div>
     <div class="rodape ">
         <div class="font-color-white">

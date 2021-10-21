@@ -1,11 +1,3 @@
-@media only screen and (min-width: 1200px) {}
-
-@media only screen and (min-width: 992px) {}
-
-@media only screen and (min-width: 600px) {}
-
-@media only screen and (max-width: 600px) {}
-
 * {
     margin: 0;
     padding: 0;
@@ -21,9 +13,10 @@
     background: #9d0202;
 }
 .iconesAcesso {
-background-color: black;
-width: 100%;
-margin-left: 50px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
 }
 
 .background {
@@ -32,7 +25,7 @@ margin-left: 50px;
     font-size: 15px;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     margin-left: 0;
     width: 200px;
@@ -40,6 +33,13 @@ nav ul {
     background-color: #222d32;
     float: left;
     display: block;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
 }
 
 li a {
@@ -171,6 +171,7 @@ li a:hover:not(.active) {
     margin: 10px 20px;
     border-radius: 2px;
     margin-left:  20px;
+    margin-bottom: 50px;
 }
 
 .box2 {
@@ -183,8 +184,6 @@ li a:hover:not(.active) {
     color: white;
     font-size: 13px;
     margin-top: 13px;
-
-
 }
 
 .caixa {
@@ -205,13 +204,11 @@ li a:hover:not(.active) {
 }
 
 .rodape {
-
-    margin: 0;
     width: 100%;
-    opacity: 0.8;
-    margin-top: 100px;
-   background-color:  #676767;
-   width: 100%;
+    margin-top: 20px;
+    background-color: #676767;
+    position: absolute;
+    bottom: 0;
 }
 
 .font-color-white{

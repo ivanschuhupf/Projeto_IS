@@ -113,5 +113,16 @@ class Usuario{
             return false;
         }
     }
+
+    public function criaUsuario ($email, $senha){
+        global $pdo;
+        $sql = $pdo -> prepare ("INSERT INTO usuario VALUE ('','$email','$senha', NULL)");
+        $sql -> execute();
+        if ($sql->rowCount()>0){
+            return true;
+        }else {
+            return false;
+        }
+    }
 }
 ?>
