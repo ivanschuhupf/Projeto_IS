@@ -80,12 +80,12 @@
     <div class="rodape ">
         <div class="font-color-white">
             <h3><i>Conhecimento é a nossa natureza.</i></h3>
-        </div>
         <div class="font-color-white"> BR 285, São José | Passo Fundo/RS | CEP: 99052-900</div>
         <div class="font-color-white">Canais de atendimento:
             <a href="tel:+55-54-3316-7000" title="Telefone UPF">(54)3316-7000</a>,
             <a href="mailto:informacoes@upf.br" title="E-mail para a Central de Informações">informacoes@upf.br</a>
         </div>
+    </div>
     </div>
 </body>
 
