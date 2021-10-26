@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'conexao.php';
 require_once 'classUsuario.php';
 if(isset ($_POST['f_senha'])&& !empty($_POST['f_senha']) && isset($_POST['f_csenha'])&& !empty($_POST['f_csenha'])){
