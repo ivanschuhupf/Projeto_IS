@@ -29,10 +29,11 @@ ul {
     list-style-type: none;
     margin-left: 0;
     width: 200px;
-    height: 770px;
+    height: 875px;
     background-color: #222d32;
     float: left;
     display: block;
+    margin-bottom: 0;
 }
 a{
     text-decoration: none;
@@ -201,22 +202,25 @@ li a:hover:not(.active) {
     padding-right: 15px;
     text-align: justify-all;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.rodape {
+.rodape{
+    background-color:  #676767;
+    padding: 15px;
+  margin-top: 150px;
+
     width: 100%;
-    margin-top: 20px;
-    background-color: #676767;
-    position: absolute;
-    bottom: 0;
+
 }
 
 .font-color-white{
     font-size: 15px;
-    color: white;
+    color: rgb(8, 5, 5);
     margin-bottom: 0;
-    display: block;
+  
     text-decoration: none;
+
 }
 .link{
     text-decoration: none;

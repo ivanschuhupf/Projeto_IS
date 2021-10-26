@@ -24,7 +24,7 @@
         <form action="app/controller/geraToken.php" method="POST">
             <input class="info" name="f_email" type="email" placeholder="exemplo@gmail.com" required>
             <div>
-                <button class="bt" type="button"><a href="index.php">Voltar</a></button>
+                <button class="bt" type="button"><a class="link" href="index.php">Voltar</a></button>
                 <button class="bt" type="submit"><a>Enviar</a></button>
             </div>
 
